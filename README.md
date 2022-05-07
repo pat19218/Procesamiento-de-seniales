@@ -1,2 +1,2 @@
 # Procesamiento-de-seniales
- uso de matlab
+ uso de matlab y tiva C LaunchPad
