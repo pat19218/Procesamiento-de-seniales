@@ -20,8 +20,9 @@
 landa1 = 0.8;
 landa2 = 0.5;
 
-num = [1-landa1, 0]; %función de transferencia 1
-den = [1, -landa1];
+
+num = [0.6561, 0, 0.002012, 0, 1]; %función de transferencia 1
+den = [1, 0, 0.000604, 0, 1];
 
 [h1, w1] = freqz(num, den);
 
